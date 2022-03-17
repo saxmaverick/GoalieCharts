@@ -6,7 +6,7 @@ GoalieChart_List <- function(team,player) {
   setwd("~/Hockey/Goalie Charts")
   
   Sys.setenv("plotly_username"="bryan.bastin")
-  Sys.setenv("plotly_api_key"="Xfix727qyFggzamt603R")
+  Sys.setenv("plotly_api_key"="")
   
   pbpteam <- paste(as.character(team))
   titleplayer <- str_to_title(gsub("[.]", " ",paste(as.character(player)))) 
